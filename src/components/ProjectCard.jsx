@@ -16,7 +16,7 @@ const ProjectCardContainer = styled.div`
   align-items: end;
   grid-auto-flow: row;
   gap: 20px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-area: 3 / 1 / 4 / 10;
 

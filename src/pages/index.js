@@ -181,13 +181,13 @@ const EmployerRow = styled.div`
   }
 `
 
-const IntroText = styled.div`
+const IntroText = styled.h1`
   box-sizing: border-box;
   margin-right: 0px;
   margin-left: 0px;
-  padding-top: 67px;
+  padding-top: 120px;
   margin-top: 0px;
-  margin-bottom: 80pxnm;
+  margin-bottom: 100px;
   grid-area: 1 / 2 / 2 / 10;
 `
 const IntroImg = styled.img`
@@ -196,6 +196,8 @@ const IntroImg = styled.img`
   vertical-align: middle;
   display: inline-block;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   max-width: none;
   grid-area: 2 / 2 / 2 / 4;
 `
@@ -249,7 +251,7 @@ const RenderBody = ({ home, projects, employers, meta }) => (
       ].concat(meta)}
     />
 
-    <IntroText>{RichText.render(home.intro_title)}</IntroText>
+    <IntroText>{RichText.asText(home.intro_title)}</IntroText>
 
     <IntroImg
       src="https://assets.website-files.com/5b71d22309339599923cd061/5efb6f96f67a6c765adc0159_alec.jpg"
