@@ -25,6 +25,7 @@
     "prismic-reactjs": "^1.1.1",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
+    "react-accessible-accordion": "^3.2.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^16.9.0",
     "react-emoji": "^0.5.0",
